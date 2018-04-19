@@ -28,7 +28,7 @@ body {
 
 #titleBar
 {
-	background: #62573b;
+	background: #000000;
 }
 
 	#titleBar .title a
@@ -90,10 +90,10 @@ body {
 
 #navPanel
 {
-	background: #48402a;
+	background: #000000;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #888;
+	color: #000000;
 	letter-spacing: 2px;
 	font-size: 1em;
 }
@@ -101,12 +101,12 @@ body {
 	#navPanel .link
 	{
 		display: block;
-		color: #ddd;
+		color: #000000;
 		text-decoration: none;
 		height: 44px;
 		line-height: 44px;
 		border: 0;
-		border-top: solid 1px #594f35;
+		border-top: solid 1px #000000;
 		padding: 0 1em 0 1em;
 	}
 
@@ -173,7 +173,7 @@ body {
 	font-size: 1em;
 	font-weight: 300;
 	font-style: bold;
-	color: #7D7D7D;
+	color: #000000;
 }
 
 #content img {
@@ -198,20 +198,29 @@ body {
 #sidebar1 {
 }
 
-#sidebar1 h2 {
+
+#sidebar2 h2 {
 	padding: 1em 0em 1.5em 0em;
 	text-transform: none;
 	font-size: 1.75em;
 }
 
-#sidebar1 img {
-}
 
-#sidebar1 a img {
-}
-
-#sidebar1 section {
+#sidebar2 section {
 	padding: 0em 1.87em;
+}
+
+
+#sidebar2 .sbox1 {
+	margin-bottom: 3.12em;
+}
+
+
+#sidebar2 .sbox2 {
+	margin-bottom: 3.12em;
+}
+
+#sidebar2 .sbox3 {
 }
 
 
@@ -262,7 +271,7 @@ body {
 }
 
 #footer-content strong {
-	color: #766946 !important;
+	color: #000000 !important;
 }
 
 #footer-content section {
